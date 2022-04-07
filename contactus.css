@@ -1,0 +1,198 @@
+body {
+    overflow-x: hidden;
+    background-image: linear-gradient(white, #008db9, white, #008db9);
+    /*font-family: "Comfortaa";*/
+}
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 1000px;
+    font-family: "Comfortaa";
+}
+
+label {
+    font-weight: bold;
+}
+
+#name,
+#email,
+#subject,
+#phone,
+#message,
+#submit {
+    border-radius: 20px;
+    font-family: "Comfortaa";
+}
+
+#card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 20px rgba(0, 0, 0, 0.19);
+}
+
+#submit {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#panel {
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+    padding-bottom: 80px;
+}
+
+#icon {
+    position: absolute;
+    border-radius: 50%;
+    padding: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+h5 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    position: absolute;
+    font-weight: 500;
+    top: 70%;
+    left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+h6 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#panel2 {
+    height: 700px;
+    position: relative;
+}
+
+#rect {
+    margin-top: 50px;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+}
+
+#ins {
+    position: relative;
+    height: 600px;
+    width: 50%;
+    top: -600px;
+    z-index: 1;
+}
+
+#icon2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 30px;
+    background-color: white;
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#par {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 16px;
+    font-weight: bold;
+    /* margin: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: start; */
+    text-align: start;
+}
+
+#lasth2 {
+    text-align: right;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        overflow-x: hidden;
+    }
+    #paragraph {
+        font-size: 1rem;
+        font-weight: 200;
+        width: 500px;
+        text-align: center;
+    }
+    img {
+        display: none;
+    }
+    #card {
+        width: 100%;
+        display: block;
+    }
+    #panel {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    #panel2 {
+        height: 350px;
+    }
+    #ins {
+        background-color: inherit;
+        top: 5%;
+        left: 20%;
+        z-index: 0;
+        height: 200px;
+        border: none;
+    }
+    h3 {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        width: 300px;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    #btn {
+        display: none;
+    }
+    #lastcard {
+        margin-left: 20px;
+    }
+}
